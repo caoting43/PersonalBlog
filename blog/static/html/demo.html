@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul id="art-id">
+</ul>
+<script type="text/html" id="art-tmpl">
+    {{ each arts as art}}
+    <li>{{ art.title }}</li>
+    {{/each}}
+</script>
+
+<script src="/static/js/template.js"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/index.js"></script>
+</body>
+</html>

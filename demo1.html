@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<ul id="art-id">
+</ul>
+<script type="text/html" id="art-tmpl">
+    <li>{{arts}}</li>
+</script>
+
+<script src="blog/static/js/template.js"></script>
+<script>
+    document.ready(function () {
+        $.get("/api/v1.0/index", function (resp) {
+            if (resp.errno == "0") {
+                var arts = resp.data;
+                var html = template("art-tmpl", {arts: arts})
+                $("#art-id").html(html)
+            } else {
+                alert(resp.errmsg);
+            }
+            alert(resp.errmsg)
+        })
+    })
+
+</script>
+</body>
+</html>
