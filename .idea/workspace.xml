@@ -16,9 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,7 +250,7 @@
       <workItem from="1614303044997" duration="678000" />
       <workItem from="1614396382346" duration="3206000" />
       <workItem from="1614577172287" duration="4783000" />
-      <workItem from="1614648370488" duration="1746000" />
+      <workItem from="1614648370488" duration="2043000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1614650337819</created>
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614650337819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1614651018481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614651018481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,10 +380,10 @@
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
     <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650986672" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614650759499">
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614651026856">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650759499" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614651026856" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>
