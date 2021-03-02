@@ -17,7 +17,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="770a2763-caa8-4436-a987-8a069816d4ac" />
@@ -67,7 +72,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -247,8 +252,16 @@
       <workItem from="1614303044997" duration="678000" />
       <workItem from="1614396382346" duration="3206000" />
       <workItem from="1614577172287" duration="4783000" />
-      <workItem from="1614648370488" duration="875000" />
+      <workItem from="1614648370488" duration="1746000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1614650337819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614650337819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +290,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2401" y="-2" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613704568123">
@@ -353,15 +370,15 @@
     </state>
     <state width="2445" height="498" key="GridCell.Tab.1.right/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612438280971" />
     <state width="2445" height="498" key="GridCell.Tab.1.right/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349396" />
-    <state x="1950" y="-184" key="SettingsEditor" timestamp="1614587467397">
+    <state x="1950" y="-184" key="SettingsEditor" timestamp="1614650986672">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
-    <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587467397" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614648388292">
+    <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650986672" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614650759499">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614648388292" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650759499" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>
