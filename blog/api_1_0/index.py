@@ -115,6 +115,7 @@ def add_data():
     """
     result = request.form
     try:
+        aid = ["aid"]
         title = result["title"]
         author = result["author"]
         content = result["content"]
@@ -126,7 +127,7 @@ def add_data():
     if not all([title, author, content, img_url]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
 
-    art = Articles(title=title, author=author, content=content, img_url=img_url,label=label)
+    art = Articles(aid=int(aid),title=title, author=author, content=content, img_url=img_url,label=label)
     try:
         db.session.add(art)
         db.session.commit()

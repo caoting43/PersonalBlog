@@ -16,15 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="数据库增加以及静态页面移位">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d2abd91-4128-4488-9a15-ee5c05612b6e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d2abd91-4128-4488-9a15-ee5c05612b6e/storage_v2/_src_/schema/blog_cao01.tab9Cw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d2abd91-4128-4488-9a15-ee5c05612b6e/storage_v2/_src_/schema/blog_cao01.tab9Cw.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2d2abd91-4128-4488-9a15-ee5c05612b6e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="新增图片">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/api_1_0/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/api_1_0/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +256,7 @@
       <workItem from="1614396382346" duration="3206000" />
       <workItem from="1614577172287" duration="4783000" />
       <workItem from="1614648370488" duration="8647000" />
-      <workItem from="1614673596044" duration="1726000" />
+      <workItem from="1614673596044" duration="2353000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1614650337819</created>
@@ -299,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614652094310</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="编写接口以及新增图片">
+      <created>1614676913356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1614676913356</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增图片">
+      <created>1614676989222</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614676989222</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +341,9 @@
     <MESSAGE value="1" />
     <MESSAGE value="123456" />
     <MESSAGE value="数据库增加以及静态页面移位" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库增加以及静态页面移位" />
+    <MESSAGE value="编写接口以及新增图片" />
+    <MESSAGE value="新增图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增图片" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2290" y="-145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614651905888">
@@ -419,10 +429,10 @@
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
     <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650986672" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614653917898">
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614676991416">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614653917898" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614676991416" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>

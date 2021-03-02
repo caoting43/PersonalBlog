@@ -399,3 +399,41 @@ INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/ap
 INFO _internal.py:113  * Restarting with stat
 WARNING _internal.py:113  * Debugger is active!
 INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:28:06] "[37mPOST /api/v1.0/delete_data HTTP/1.1[0m" 200 -
+ERROR index.py:135 (MySQLdb._exceptions.OperationalError) (1048, "Column 'aid' cannot be null")
+[SQL: INSERT INTO blog_articles (create_time, update_time, aid, title, author, content, img_url, label) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: (datetime.datetime(2021, 3, 2, 17, 29, 8, 133196), datetime.datetime(2021, 3, 2, 17, 29, 8, 133206), None, '修改标题1', '修改作者1', '修改文本1', 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '旅游')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:29:08] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+ERROR index.py:136 (MySQLdb._exceptions.OperationalError) (1366, "Incorrect integer value: 'aid' for column 'aid' at row 1")
+[SQL: INSERT INTO blog_articles (create_time, update_time, aid, title, author, content, img_url, label) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: (datetime.datetime(2021, 3, 2, 17, 30, 26, 309155), datetime.datetime(2021, 3, 2, 17, 30, 26, 309163), ['aid'], '修改标题1', '修改作者1', '修改文本1', 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '旅游')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:30:26] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+ERROR index.py:136 (MySQLdb._exceptions.OperationalError) (1366, "Incorrect integer value: 'aid' for column 'aid' at row 1")
+[SQL: INSERT INTO blog_articles (create_time, update_time, aid, title, author, content, img_url, label) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: (datetime.datetime(2021, 3, 2, 17, 30, 31, 338439), datetime.datetime(2021, 3, 2, 17, 30, 31, 338447), ['aid'], '修改标题1', '修改作者1', '修改文本1', 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '旅游')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:30:31] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+ERROR index.py:136 (MySQLdb._exceptions.OperationalError) (1366, "Incorrect integer value: 'aid' for column 'aid' at row 1")
+[SQL: INSERT INTO blog_articles (create_time, update_time, aid, title, author, content, img_url, label) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: (datetime.datetime(2021, 3, 2, 17, 31, 45, 457387), datetime.datetime(2021, 3, 2, 17, 31, 45, 457395), ['aid'], '修改标题1', '修改作者1', '修改文本1', 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '旅游')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:31:45] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [02/Mar/2021 17:32:11] "[35m[1mPOST /api/v1.0/add_data HTTP/1.1[0m" 500 -
