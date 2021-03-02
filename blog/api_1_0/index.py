@@ -49,7 +49,7 @@ def recise_data():
 @api.route("/update_data", mothods=["POST"])
 def update_data():
     """
-    更新数据
+    更新数据。。。。
     入参：title,content,img_url,label
     :return: ok
     """

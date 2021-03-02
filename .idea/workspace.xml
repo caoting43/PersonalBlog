@@ -6,20 +6,20 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="" />
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EcommerceProject" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="770a2763-caa8-4436-a987-8a069816d4ac" />
   <component name="ProjectId" id="1ng2syOFhufNER30IAwNFD8p2TN" />
@@ -58,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -245,7 +246,8 @@
       <workItem from="1614214528688" duration="2754000" />
       <workItem from="1614303044997" duration="678000" />
       <workItem from="1614396382346" duration="3206000" />
-      <workItem from="1614577172287" duration="3750000" />
+      <workItem from="1614577172287" duration="4783000" />
+      <workItem from="1614648370488" duration="875000" />
     </task>
     <servers />
   </component>
@@ -257,7 +259,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -275,6 +289,18 @@
     </state>
     <state x="2421" y="-57" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/1440.-515.2489.1415@1440.-515.2489.1415" timestamp="1611797871306" />
     <state x="2425" y="-57" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1613960363145" />
+    <state x="2503" y="97" key="Github.CreateGistDialog" timestamp="1614587506284">
+      <screen x="1440" y="-515" width="2500" height="1415" />
+    </state>
+    <state x="2503" y="97" key="Github.CreateGistDialog/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587506284" />
+    <state x="2553" y="93" key="Github.ShareDialog" timestamp="1614587674506">
+      <screen x="1440" y="-515" width="2500" height="1415" />
+    </state>
+    <state x="2553" y="93" key="Github.ShareDialog/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587674506" />
+    <state x="2489" y="-100" key="Github.UntrackedFilesDialog" timestamp="1614587688682">
+      <screen x="1440" y="-515" width="2500" height="1415" />
+    </state>
+    <state x="2489" y="-100" key="Github.UntrackedFilesDialog/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587688682" />
     <state width="2458" height="406" key="GridCell.Tab.0.bottom" timestamp="1613986339732">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
@@ -332,6 +358,10 @@
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
     <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587467397" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614648388292">
+      <screen x="1440" y="-515" width="2500" height="1415" />
+    </state>
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614648388292" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>
