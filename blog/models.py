@@ -53,3 +53,12 @@ class Articles(BaseModel, db.Model):
             "create_time": self.create_time,
         }
         return d
+
+    def to_revise_dict(self):
+        d = {
+            "title": self.title,
+            "content": self.content,
+            "img_url": self.img_url,
+            "label": self.label,
+        }
+        return d
