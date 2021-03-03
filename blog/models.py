@@ -36,8 +36,6 @@ class Articles(BaseModel, db.Model):
     def to_dict(self):
         d = {
             "title": self.title,
-            "author": self.author,
-            "content": self.content,
             "img_url": self.img_url,
             "label": self.label,
         }
@@ -60,5 +58,24 @@ class Articles(BaseModel, db.Model):
             "content": self.content,
             "img_url": self.img_url,
             "label": self.label,
+        }
+        return d
+
+    def to_label_dict(self):
+        d = {
+            "aid": self.aid,
+            "title": self.title,
+            "img_url": self.img_url,
+            "label": self.label,
+        }
+        return d
+
+    def to_detailed_dict(self):
+        d = {
+            "title": self.title,
+            "author": self.author,
+            "content": self.content,
+            "label": self.label,
+            "create_time": self.create_time,
         }
         return d

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $.get("/api/v1.0/index", function (resp) {
+    $.get("/api/v1.0/get_data", function (resp) {
         alert(resp.errno)
         if (resp.errno == "0") {
             var arts = resp.data;
