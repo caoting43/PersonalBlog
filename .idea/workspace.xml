@@ -16,14 +16,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="新增图片">
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="接口编写完成，开始前端页面的模板编写">
+      <change afterPath="$PROJECT_DIR$/blog/static/html/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/contentlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/recise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/api_1_0/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/api_1_0/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/html/demo1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +60,9 @@
   </component>
   <component name="JupyterTrust" id="770a2763-caa8-4436-a987-8a069816d4ac" />
   <component name="ProjectId" id="1ng2syOFhufNER30IAwNFD8p2TN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,19 +80,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/blog/static/js" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/blog/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/static/js" />
       <recent name="$PROJECT_DIR$/blog/static" />
       <recent name="$PROJECT_DIR$/blog/static/html" />
       <recent name="$PROJECT_DIR$/blog" />
       <recent name="$PROJECT_DIR$/blog/api_1_0" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog/static/js" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blog/static" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -262,7 +264,8 @@
       <workItem from="1614577172287" duration="4783000" />
       <workItem from="1614648370488" duration="8647000" />
       <workItem from="1614673596044" duration="2542000" />
-      <workItem from="1614735435725" duration="8359000" />
+      <workItem from="1614735435725" duration="9105000" />
+      <workItem from="1614820429742" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1614650337819</created>
@@ -320,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614677582420</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="接口编写完成，开始前端页面的模板编写">
+      <created>1614763173062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1614763173062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +366,8 @@
     <MESSAGE value="数据库增加以及静态页面移位" />
     <MESSAGE value="编写接口以及新增图片" />
     <MESSAGE value="新增图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增图片" />
+    <MESSAGE value="接口编写完成，开始前端页面的模板编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口编写完成，开始前端页面的模板编写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2290" y="-145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614651905888">
@@ -437,15 +448,15 @@
     </state>
     <state width="2445" height="498" key="GridCell.Tab.1.right/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612438280971" />
     <state width="2445" height="498" key="GridCell.Tab.1.right/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349396" />
-    <state x="1950" y="-184" key="SettingsEditor" timestamp="1614650986672">
+    <state x="1950" y="-184" key="SettingsEditor" timestamp="1614825029121">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
-    <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614650986672" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614677584815">
+    <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614825029121" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614763942630">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614677584815" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614763942630" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>
