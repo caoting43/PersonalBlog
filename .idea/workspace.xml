@@ -16,14 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="接口编写完成，开始前端页面的模板编写">
-      <change afterPath="$PROJECT_DIR$/blog/static/html/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/html/contentlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/html/recise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="模板编写" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -265,7 +258,7 @@
       <workItem from="1614648370488" duration="8647000" />
       <workItem from="1614673596044" duration="2542000" />
       <workItem from="1614735435725" duration="9105000" />
-      <workItem from="1614820429742" duration="3495000" />
+      <workItem from="1614820429742" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1614650337819</created>
@@ -330,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614763173062</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="模板编写">
+      <created>1614844200562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614844200562</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +367,8 @@
     <MESSAGE value="编写接口以及新增图片" />
     <MESSAGE value="新增图片" />
     <MESSAGE value="接口编写完成，开始前端页面的模板编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口编写完成，开始前端页面的模板编写" />
+    <MESSAGE value="模板编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板编写" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2290" y="-145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614651905888">
@@ -453,9 +454,10 @@
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
     <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614825029121" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614763942630">
-      <screen x="1440" y="-515" width="2500" height="1415" />
+    <state x="490" y="300" key="Vcs.Push.Dialog.v2" timestamp="1614844202983">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="490" y="300" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@0.25.1440.875" timestamp="1614844202983" />
     <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614763942630" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
