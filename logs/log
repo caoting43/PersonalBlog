@@ -537,3 +537,721 @@ INFO _internal.py:113 127.0.0.1 - - [03/Mar/2021 17:18:27] "[36mGET / HTTP/1.1
 INFO _internal.py:113 127.0.0.1 - - [03/Mar/2021 17:18:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [03/Mar/2021 17:18:28] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
 INFO _internal.py:113 127.0.0.1 - - [03/Mar/2021 17:18:29] "[37mGET /static/HOME/bedroom.jpeg HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 09:55:13] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:06:52] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:07:01] "[37mGET /api/v1.0/recise_data?id=1 HTTP/1.1[0m" 200 -
+ERROR index.py:78 (MySQLdb._exceptions.DataError) (1406, "Data too long for column 'label' at row 1")
+[SQL: UPDATE blog_articles SET update_time=%s, img_url=%s, label=%s WHERE blog_articles.id = %s]
+[parameters: (datetime.datetime(2021, 3, 16, 10, 7, 31, 341449), 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '居家111111111', 1)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h)
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:07:31] "[37mPOST /api/v1.0/update_data HTTP/1.1[0m" 200 -
+ERROR index.py:78 (MySQLdb._exceptions.DataError) (1406, "Data too long for column 'label' at row 1")
+[SQL: UPDATE blog_articles SET update_time=%s, img_url=%s, label=%s WHERE blog_articles.id = %s]
+[parameters: (datetime.datetime(2021, 3, 16, 10, 26, 35, 848216), 'http://127.0.0.1:5000/static/HOME/bedroome.jpeg', '居家111111111', 1)]
+(Background on this error at: http://sqlalche.me/e/13/9h9h)
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:26:35] "[37mPOST /api/v1.0/update_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:26:43] "[37mPOST /api/v1.0/update_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:27] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:32] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:33] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:34] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:34] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:39] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:28:59] "[37mGET /api/v1.0/get_label_data?label=旅游 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 10:29:31] "[37mGET /api/v1.0/get_detailed_data?id=4&label=旅游 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 11:48:14] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 11:48:33] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 11:48:35] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 14:54:00] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 14:54:06] "[37mGET /api/v1.0/get_list_data?page=1&limit=10 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:26:09] "[37mGET /api/v1.0/get_list_data?page=1&limit=10 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:27:37] "[37mGET /api/v1.0/get_list_data?page=1&limit=10 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:28:49] "[37mGET /api/v1.0/get_list_data?page=1&limit=10 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:29:38] "[37mGET /api/v1.0/get_list_data?page=1&limit=10 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:02] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:04] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:07] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:16] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:19] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:21] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:30:56] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:31:43] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:31:45] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:31:47] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:32:01] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:32:19] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:32:55] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:33:13] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:33:43] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:42:32] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:43:09] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:51:48] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:54:27] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:55:05] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:55:45] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:56:54] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:57:48] "[35m[1mGET /api/v1.0/get_list_data HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 15:59:03] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 16:00:13] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 16:10:16] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 16:11:11] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 16:11:20] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [16/Mar/2021 16:11:31] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 09:20:48] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 09:21:14] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 09:21:36] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 09:21:44] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:42:11] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:47:47] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:48:00] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:53:22] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:53:26] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:58:19] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 10:58:52] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:02:29] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:02:52] "[37mGET /api/v1.0/get_list_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:03:15] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/models.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:04:09] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:04:27] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:04:27] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:05:28] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:05:38] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:05:43] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:06:04] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:07:15] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:08:37] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:27] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:27] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:27] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:38] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:11:38] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:13:24] "[33mGET /api_1_0/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:13:52] "[33mGET /api_1_0/index.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:14:16] "[33mGET /static/HOME/bedroome.jpeg HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:14:19] "[33mGET /static/HOME/bedroome.jpeg HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:14:19] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:14:24] "[33mGET /static/HOME/bedroome.jpeg HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:14:24] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:19:42] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:19:42] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:19:42] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:19:49] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:20:50] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:20:50] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 11:21:18] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 13:15:33] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 16:43:14] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 16:43:32] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [17/Mar/2021 17:24:01] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 10:25:16] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 11:56:06] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 11:56:17] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 11:58:04] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 11:58:18] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:35:44] "[36mGET /static/js/template.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:35:44] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:35:44] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:35:45] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:35:47] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:36:17] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:36:45] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:37:04] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:37:49] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:38:26] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:39] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:43] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:44] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:45] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:45] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:39:46] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:40:28] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:40:35] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:40:56] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:41:07] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:41:18] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:41:30] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:42:05] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:42:39] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:42:56] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:43:33] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:43:37] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 15:43:46] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:06:16] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:06:30] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:06:32] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:07:14] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:08:15] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:08:16] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:09:02] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:09:03] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:09:26] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:09:35] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:11:56] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:12:40] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:12:42] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:12:54] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/api_1_0/index.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:16:15] "[37mPOST /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:16:22] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [18/Mar/2021 18:16:31] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 15:47:58] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:16:51] "[37mGET /api/v1.0/get_list_data?page=1&limit=15 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:17:02] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:17:12] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:17:39] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:18:13] "[37mOPTIONS /api/v1.0/add_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:27:34] "[33mGET /static/HOME/bedroome.jpeg HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:27:34] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:09] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:09] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:09] "[37mGET /static/js/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:10] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:24] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:25] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:26] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:27] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:28] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:29] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:29] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:29] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:29] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:29] "[37mGET /api/v1.0/get_data HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:38] "[33mGET /api/v1.0/index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:38] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:42] "[33mGET /api/v1.0/index.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:56] "[33mGET /api/v1.0/index.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:28:56] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:29:06] "[33mGET /api/v1.0/index.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:29:06] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:13] "[33mGET /api/v1.0/index.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:13] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[37mGET /index1.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/lib/layui-v2.5.5/css/layui.css HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/css/layuimini.css?v=2.0.4.2 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/css/themes/default.css HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/lib/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/lib/layui-v2.5.5/layui.js HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/js/lay-config.js?v=2.0.0 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:30:53] "[33mGET /layuimini/images/favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /index1.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/css/layui.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/css/layuimini.css?v=2.0.4.2 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/css/themes/default.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/layui.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/js/lay-config.js?v=2.0.0 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/font/iconfont.woff2?v=250 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616574776940 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616574776970 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/layer.css?v=3.1.1 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616574776979 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:56] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616574776992 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616574776998 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616574777018 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616574777027 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616574777036 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616574777045 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[33mGET /layuimini/api/init.json HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:32:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /index1.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616574792193 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616574792210 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616574792216 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616574792222 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616574792227 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616574792241 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616574792247 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616574792257 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616574792263 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[37mGET /static/layuimini/api/init.json HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:33:12] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[36mGET /index1.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616574849560 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616574849575 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616574849582 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616574849588 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616574849593 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616574849607 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616574849616 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616574849627 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616574849634 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:09] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[36mGET /index1.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616574878724 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616574878739 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616574878747 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616574878752 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616574878757 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616574878771 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616574878780 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616574878789 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616574878798 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:38] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:43] "[37mGET /static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-0.gif HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:43] "[33mGET /page/articles.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 16:34:44] "[33mGET /page/welcome-2.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:56] "[36mGET /index1.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576456998 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576457017 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576457024 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576457031 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576457037 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576457051 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576457058 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576457066 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576457074 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:00:57] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/web_html.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113  * Detected change in '/Users/caoting/PersonalBlog/blog/web_html.py', reloading
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:03:54] "[33mGET /index1.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:03:55] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576643235 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576643255 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576643268 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576643274 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576643291 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576643307 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576643316 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576643322 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576643328 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:03] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[36mGET /index.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576664389 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576664403 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576664410 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576664416 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576664421 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576664434 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576664440 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576664448 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576664457 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:24] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[36mGET /index.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576673137 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576673153 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576673160 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576673167 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576673172 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576673187 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576673193 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576673201 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576673210 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:04:33] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[36mGET /index.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576789326 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576789342 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576789349 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576789355 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576789359 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576789373 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576789379 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576789387 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576789398 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:29] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576794773 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576794791 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576794798 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576794803 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576794809 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576794821 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576794827 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576794844 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576794849 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:06:34] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616576928389 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616576928417 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616576928427 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616576928435 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616576928442 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616576928458 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616576928468 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616576928478 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616576928490 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:08:48] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:33] "[37mGET /static/html/welcome.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:35] "[36mGET /static/html/welcome.html HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:35] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:39] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577639939 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:39] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577639965 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:39] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577639976 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:39] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577639994 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577640008 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577640036 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577640046 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577640064 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577640074 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:20:40] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:07] "[33mGET /page/articles.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:08] "[33mGET /page/welcome-2.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577705329 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577705356 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577705366 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577705372 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577705377 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577705392 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577705402 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577705409 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577705419 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[33mGET /page/articles.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:21:45] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577775150 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577775176 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577775183 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577775192 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577775197 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577775212 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577775221 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577775231 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:22:55] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577775239 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577832398 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577832423 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577832431 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577832438 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577832444 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577832458 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577832468 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577832474 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577832485 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[33mGET /page/articles.html HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:23:52] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577907798 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577907827 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577907836 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577907843 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577907861 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577907877 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577907886 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577907893 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577907904 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:25:07] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616577997005 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616577997034 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616577997044 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616577997052 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616577997059 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616577997075 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616577997092 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616577997103 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616577997114 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:37] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616578006612 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616578006658 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616578006672 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616578006682 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616578006690 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616578006710 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616578006721 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616578006731 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616578006743 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:46] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:49] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616578009952 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616578009980 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616578009990 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616578009996 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616578010005 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616578010021 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616578010028 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616578010039 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616578010049 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:26:50] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:27:26] "[37mGET /static/layuimini/api/clear.json HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Restarting with stat
+WARNING _internal.py:113  * Debugger is active!
+INFO _internal.py:113  * Debugger PIN: 265-380-126
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[36mGET / HTTP/1.1[0m" 304 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js?v=1616578129315 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js?v=1616578129349 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniAdmin.js?v=1616578129361 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniMenu.js?v=1616578129369 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/element.js?v=1616578129376 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js?v=1616578129394 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTab.js?v=1616578129404 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/images/favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTheme.js?v=1616578129413 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[37mGET /static/layuimini/js/lay-module/layuimini/miniTongji.js?v=1616578129426 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[33mGET /page/welcome.html?t=1 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2021 17:28:49] "[33mGET /layuimini/images/logo.png HTTP/1.1[0m" 404 -

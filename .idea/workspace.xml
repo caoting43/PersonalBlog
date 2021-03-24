@@ -16,7 +16,208 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="模板编写" />
+    <list default="true" id="ac8b21b9-88ab-49c5-8181-2c1088065f8a" name="Default Changelist" comment="模板编写">
+      <change afterPath="$PROJECT_DIR$/blog/static/html/articles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/articles_add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/articles_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/index01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/html/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/menus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/tableSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/api/upload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/css/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/donate_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/icon-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layarea/layarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layuimini/miniAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layuimini/miniMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layuimini/miniTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layuimini/miniTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/layuimini/miniTongji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/step-lay/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/step-lay/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/jq-module/paigusu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/layuimini/lib/layui-v2.5.5/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/api_1_0/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/api_1_0/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +227,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -61,6 +262,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -89,7 +291,7 @@
       <recent name="$PROJECT_DIR$/blog/static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.demo">
     <configuration name="媒体聚焦数据插入" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PersonalBlog" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +328,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/处理表格数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PersonalBlog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,6 +448,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.gw_to_mysql" />
         <item itemvalue="Python.to_pymysql" />
@@ -258,7 +483,12 @@
       <workItem from="1614648370488" duration="8647000" />
       <workItem from="1614673596044" duration="2542000" />
       <workItem from="1614735435725" duration="9105000" />
-      <workItem from="1614820429742" duration="4032000" />
+      <workItem from="1614820429742" duration="4864000" />
+      <workItem from="1615799384871" duration="550000" />
+      <workItem from="1615858762559" duration="5846000" />
+      <workItem from="1615943951157" duration="2199000" />
+      <workItem from="1616031107226" duration="3219000" />
+      <workItem from="1616571591641" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1614650337819</created>
@@ -330,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614844200562</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="模板编写">
+      <created>1614855944942</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614855944942</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +598,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="123456" />
     <MESSAGE value="数据库增加以及静态页面移位" />
@@ -397,38 +635,38 @@
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state x="2489" y="-100" key="Github.UntrackedFilesDialog/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614587688682" />
-    <state width="1700" height="406" key="GridCell.Tab.0.bottom" timestamp="1614652003874">
+    <state width="2458" height="406" key="GridCell.Tab.0.bottom" timestamp="1615977672052">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state width="2445" height="406" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2487.1415@1440.-515.2487.1415" timestamp="1612492879463" />
     <state width="2445" height="406" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2489.1415@1440.-515.2489.1415" timestamp="1612433902138" />
     <state width="2445" height="406" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612514831945" />
     <state width="2445" height="498" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349395" />
-    <state width="1700" height="406" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614652003874" />
-    <state width="1700" height="406" key="GridCell.Tab.0.center" timestamp="1614652003873">
+    <state width="2458" height="406" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1615977672052" />
+    <state width="2458" height="406" key="GridCell.Tab.0.center" timestamp="1615977672052">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state width="2445" height="406" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2487.1415@1440.-515.2487.1415" timestamp="1612492879462" />
     <state width="2445" height="406" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2489.1415@1440.-515.2489.1415" timestamp="1612433902137" />
     <state width="2445" height="406" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612514831945" />
     <state width="2445" height="498" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349394" />
-    <state width="1700" height="406" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614652003873" />
-    <state width="1700" height="406" key="GridCell.Tab.0.left" timestamp="1614652003872">
+    <state width="2458" height="406" key="GridCell.Tab.0.center/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1615977672052" />
+    <state width="2458" height="406" key="GridCell.Tab.0.left" timestamp="1615977672047">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state width="2445" height="406" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2487.1415@1440.-515.2487.1415" timestamp="1612492879461" />
     <state width="2445" height="406" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2489.1415@1440.-515.2489.1415" timestamp="1612433902136" />
     <state width="2445" height="406" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612514831944" />
     <state width="2445" height="498" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349394" />
-    <state width="1700" height="406" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614652003872" />
-    <state width="1700" height="406" key="GridCell.Tab.0.right" timestamp="1614652003874">
+    <state width="2458" height="406" key="GridCell.Tab.0.left/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1615977672046" />
+    <state width="2458" height="406" key="GridCell.Tab.0.right" timestamp="1615977672052">
       <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state width="2445" height="406" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2487.1415@1440.-515.2487.1415" timestamp="1612492879463" />
     <state width="2445" height="406" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2489.1415@1440.-515.2489.1415" timestamp="1612433902137" />
     <state width="2445" height="406" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612514831945" />
     <state width="2445" height="498" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2492.1415@1440.-515.2492.1415" timestamp="1612437349395" />
-    <state width="1700" height="406" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614652003874" />
+    <state width="2458" height="406" key="GridCell.Tab.0.right/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1615977672052" />
     <state width="2445" height="498" key="GridCell.Tab.1.bottom" timestamp="1612438280971">
       <screen x="1440" y="-515" width="2490" height="1415" />
     </state>
@@ -454,11 +692,11 @@
     </state>
     <state x="1948" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2490.1415@1440.-515.2490.1415" timestamp="1612237742703" />
     <state x="1950" y="-184" key="SettingsEditor/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614825029121" />
-    <state x="490" y="300" key="Vcs.Push.Dialog.v2" timestamp="1614844202983">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2" timestamp="1614855946830">
+      <screen x="1440" y="-515" width="2500" height="1415" />
     </state>
     <state x="490" y="300" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@0.25.1440.875" timestamp="1614844202983" />
-    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614763942630" />
+    <state x="2290" y="-71" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.-515.2500.1415@1440.-515.2500.1415" timestamp="1614855946830" />
     <state x="2413" y="108" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612332678689">
       <screen x="1440" y="-515" width="2487" height="1415" />
     </state>
@@ -474,5 +712,6 @@
     <SUITE FILE_PATH="coverage/PersonalBlog$test.coverage" NAME="test Coverage Results" MODIFIED="1613960157448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PersonalBlog$yurunMT_data.coverage" NAME="yurunMT_data Coverage Results" MODIFIED="1612491619964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PersonalBlog$get_excel_data.coverage" NAME="get_excel_data Coverage Results" MODIFIED="1612492879450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PersonalBlog$demo.coverage" NAME="demo Coverage Results" MODIFIED="1615949834669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

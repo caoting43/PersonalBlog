@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>layui</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="/static/layuimini/lib/layui-v2.5.5/css/layui.css" media="all">
+		<link rel="stylesheet" href="/static/layuimini/css/public.css" media="all">
+		<style>
+			body {
+				background-color: #ffffff;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="layui-form layuimini-form">
+			<div class="layui-form-item">
+				<label class="layui-form-label required">博文标题</label>
+				<div class="layui-input-block">
+					<input type="text" name="title" lay-verify="required" lay-reqtext="标题不能为空" placeholder="请输入标题"
+						value="" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label required">作者</label>
+				<div class="layui-input-block">
+					<input type="text" name="author" lay-verify="required" lay-reqtext="作者不能为空" placeholder="请输入作者"
+						value="" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label required">图片地址</label>
+				<div class="layui-input-block">
+					<input type="text" name="img_url" lay-verify="required" lay-reqtext="地址不能为空" placeholder="请输入标题"
+						value="" class="layui-input">
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<label class="layui-form-label required">标签</label>
+				<div class="layui-input-block">
+					<input type="radio" name="label" value="时尚" title="时尚" checked="">
+					<input type="radio" name="label" value="旅游" title="旅游">
+					<input type="radio" name="label" value="汽车" title="汽车">
+					<input type="radio" name="label" value="游戏" title="游戏">
+				</div>
+			</div>
+
+
+			<div class="layui-form-item layui-form-text">
+				<label class="layui-form-label">博文内容</label>
+				<div class="layui-input-block">
+					<textarea name="content" class="layui-textarea" placeholder="请输入博文内容"></textarea>
+				</div>
+			</div>
+
+			<div class="layui-form-item">
+				<div class="layui-input-block">
+					<button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+				</div>
+			</div>
+		</div>
+		<!-- <script src="../layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script> -->
+		<script src="/static/layuimini/lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			// layui.use(['layer', 'form'], function() {
+			// 	var $ = layui.jquery,
+			// 		form = layui.form;
+			// 	form.render();
+			// 	//监听提交
+			// 	form.on('submit(saveBtn)', function(data) {
+			// 		var date = data.field;
+			// 		// var url = "http://127.0.0.1:5000/api/v1.0/add_data";
+			// 		alert(1)
+			// 		$.ajax({
+			// 			url: "http://127.0.0.1:5000/api/v1.0/add_data",
+			// 			type: 'post',
+			// 			processData: false,
+			// 			contentType: false,
+			// 			data: data,
+			// 			beforeSend: function() {
+			// 				this.layerIndex = layer.load(0, {
+			// 					shade: [0.5, '#393D49']
+			// 				});
+			// 			},
+			// 			success: function(data) {
+			// 				if (data.status == 'error') {
+			// 					layer.msg(data.msg, {
+			// 						icon: 5
+			// 					}); //失败的表情
+			// 					return;
+			// 				} else if (data.status == 'success') {
+			// 					layer.msg(data.msg, {
+			// 						icon: 6, //成功的表情
+			// 						time: 1000 //1秒关闭（如果不配置，默认是3秒）
+			// 					}, function() {
+			// 						location.reload();
+			// 					});
+			// 				}
+			// 			},
+			// 			complete: function() {
+			// 				layer.close(this.layerIndex);
+			// 			},
+			// 		});
+			// 		alert(3)
+			// 		return false; //阻止表单跳转
+			// 	});
+
+			// });
+
+
+			layui.use(['form', 'layer', 'laydate'], function() {
+				var form = layui.form,
+					$ = layui.jquery,
+					laydate = layui.laydate;
+				//执行一个laydate实例
+				laydate.render({
+					elem: '#client_time' //指定元素
+				});
+
+				//监听form表单提交事件
+				form.on('submit(saveBtn)', function(data) {
+					var param = data.field; //定义临时变量获取表单提交过来的数据，非json格式
+					console.log(JSON.stringify(param)); //测试是否获取到表单数据，调试模式下在页面控制台查看
+					console.log(param);
+					$.ajax({
+						url: "http://127.0.0.1:5000/api/v1.0/add_data",
+						type: 'post', //method请求方式，get或者post
+						dataType: 'json', //预期服务器返回的数据类型
+						data: JSON.stringify(param), //表格数据序列化
+						contentType: "application/json; charset=utf-8",
+						success: function(res) { //res为相应体,function为回调函数
+							if (res.status == 200) {
+								layer.alert('添加信息成功', {
+									icon: 1
+								});
+								//$("#res").click();//调用重置按钮将表单数据清空
+							} else {
+								layer.alert(data.msg, {
+									icon: 5
+								});
+							}
+						},
+						error: function() {
+							layer.alert('操作失败！！！', {
+								icon: 5
+							});
+						}
+					});
+					//return false;
+				}); //end form
+			}); //end layui.use
+		</script>
+		<script src="/static/layuimini/lib/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+	</body>
+</html>

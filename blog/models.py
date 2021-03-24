@@ -26,7 +26,6 @@ class Articles(BaseModel, db.Model):
     __tablename__ = "blog_articles"
 
     id = db.Column(db.Integer, primary_key=True)  # 用户编号
-    aid = db.Column(db.Integer, nullable=False)  # 用户编号
     title = db.Column(db.String(52), nullable=False)  # 标题
     author = db.Column(db.String(10), nullable=False)  # 作者
     content = db.Column(db.TEXT, nullable=False)  # 文章
@@ -41,14 +40,16 @@ class Articles(BaseModel, db.Model):
         }
         return d
 
+    # 博文列表
     def to_list_dict(self):
         d = {
-            "aid": self.aid,
+            "id": self.id,
             "title": self.title,
             "author": self.author,
             "img_url": self.img_url,
             "label": self.label,
-            "create_time": self.create_time,
+            "create_time": str(self.create_time),
+            "update_time": str(self.update_time)
         }
         return d
 
@@ -63,7 +64,7 @@ class Articles(BaseModel, db.Model):
 
     def to_label_dict(self):
         d = {
-            "aid": self.aid,
+            "id": self.id,
             "title": self.title,
             "img_url": self.img_url,
             "label": self.label,
